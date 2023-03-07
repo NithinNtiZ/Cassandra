@@ -34,7 +34,9 @@ gpgkey=https://www.apache.org/dist/cassandra/KEYS
 ```
 **(after that, click on the escape key to end editing the file)**
 
-<!-- NOTE:  Add the Apache repository of Cassandra to the file /etc/yum.repos.d/cassandra.repo (as the root user). The latest major version is 4.0 and the corresponding distribution name is 40x (with an "x" as the suffix). For older releases use 311x for C* 3.11 series, 30x for {30_version}, 22x for {22_version} and 21x for {21_version}. For example, to add the repository for version 4.0 (40x): -->
+```bash
+NOTE:  Add the Apache repository of Cassandra to the file /etc/yum.repos.d/cassandra.repo (as the root user). The latest major version is 4.0 and the corresponding distribution name is 40x (with an "x" as the suffix). For older releases use 311x for C* 3.11 series, 30x for {30_version}, 22x for {22_version} and 21x for {21_version}. For example, to add the repository for version 4.0 (40x):
+```
 
 # Step 3: Install Cassandra
 
